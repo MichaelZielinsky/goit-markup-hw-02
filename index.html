@@ -14,18 +14,24 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./CSS/index.css" />
+    <link rel="stylesheet" href="/goit-markup-hw-02/css/index.css" />
   </head>
   <body>
     <header>
       <a class="link logo" href="index.html"
         >Web<span class="logo-head">Studio</span></a
       >
-      <nav>
+      <nav class="menu">
         <ul>
-          <li><a class="link" href="#section1">Agencja</a></li>
-          <li><a class="link" href="portfolio.html">Portfolio</a></li>
-          <li><a class="link" href="#section2">Kontakt</a></li>
+          <li class="list menu">
+            <a class="link" href="#section1">Agencja</a>
+          </li>
+          <li class="list menu">
+            <a class="link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="list menu">
+            <a class="link" href="#section2">Kontakt</a>
+          </li>
         </ul>
       </nav>
       <a class="link contact" href="mailto:info@devstudio.pl"
@@ -36,15 +42,15 @@
     <main>
       <section class="banner">
         <h1 class="banner-txt">Efektywne rozwiązania dla twojego biznesu</h1>
-        <button type="button" class="link portfolio">Zamów usługe</button>
+        <button type="button" class="hero-btn">Zamów usługe</button>
       </section>
       <section class="our-adv" id="section1">
         <!-- Nasze atuty -->
-        <ul>
+        <ul class="list">
           <li>
             <dl>
-              <dt>Lorem ipsum</dt>
-              <dd>
+              <dt class="adv-title">Lorem ipsum</dt>
+              <dd class="adv-descr">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </dd>
@@ -52,8 +58,8 @@
           </li>
           <li>
             <dl>
-              <dt>Lorem ipsum</dt>
-              <dd>
+              <dt class="adv-title">Lorem ipsum</dt>
+              <dd class="adv-descr">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </dd>
@@ -61,8 +67,8 @@
           </li>
           <li>
             <dl>
-              <dt>Lorem ipsum</dt>
-              <dd>
+              <dt class="adv-title">Lorem ipsum</dt>
+              <dd class="adv-descr">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </dd>
@@ -70,8 +76,8 @@
           </li>
           <li>
             <dl>
-              <dt>Lorem ipsum</dt>
-              <dd>
+              <dt class="adv-title">Lorem ipsum</dt>
+              <dd class="adv-descr">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </dd>
@@ -81,9 +87,9 @@
       </section>
       <section>
         <!-- Czym się zajmujemy -->
-        <h2>Czym się zajmujemy</h2>
+        <h2 class="title-snd">Czym się zajmujemy</h2>
         <ul class="what-we-do">
-          <li>
+          <li class="what-we-do list">
             <img
               src="images/box1.jpeg"
               alt="Usługa research"
@@ -91,7 +97,7 @@
               height="294"
             />
           </li>
-          <li>
+          <li class="what-we-do list">
             <img
               src="images/box2.jpeg"
               alt="Ux oraz UI Design"
@@ -99,7 +105,7 @@
               height="294"
             />
           </li>
-          <li>
+          <li class="what-we-do list">
             <img
               src="images/box3.jpeg"
               alt="Tworzeniem kreacji marketingowych"
@@ -111,8 +117,8 @@
       </section>
       <section class="team">
         <!-- Nasz zespół -->
-        <h2>Nasz zespół</h2>
-        <ul>
+        <h2 class="title-snd">Nasz zespół</h2>
+        <ul class="list team">
           <li>
             <img
               src="images/team1.jpeg"
@@ -121,8 +127,8 @@
               height="260"
             />
             <dl>
-              <dt>John Doe</dt>
-              <dd>Product designer</dd>
+              <dt class="team-name">John Doe</dt>
+              <dd class="team-desc">Product designer</dd>
             </dl>
           </li>
           <li>
@@ -133,8 +139,8 @@
               height="260"
             />
             <dl>
-              <dt>John Doe</dt>
-              <dd>Frontend Developer</dd>
+              <dt class="team-name">John Doe</dt>
+              <dd class="team-desc">Frontend Developer</dd>
             </dl>
           </li>
           <li>
@@ -145,8 +151,8 @@
               height="260"
             />
             <dl>
-              <dt>John Doe</dt>
-              <dd>Marketing</dd>
+              <dt class="team-name">John Doe</dt>
+              <dd class="team-desc">Marketing</dd>
             </dl>
           </li>
           <li>
@@ -157,14 +163,14 @@
               height="260"
             />
             <dl>
-              <dt>John Doe</dt>
-              <dd>UI Designer</dd>
+              <dt class="team-name">John Doe</dt>
+              <dd class="team-desc">UI Designer</dd>
             </dl>
           </li>
         </ul>
       </section>
     </main>
-    <footer>
+    <footer class="fotter-bg">
       <address id="section2">
         <a class="link logo" href="index.html"
           >Web<span class="logo-footer">Studio</span></a

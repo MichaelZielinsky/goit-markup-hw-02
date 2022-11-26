@@ -14,17 +14,23 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./CSS/index.css" />
+    <link rel="stylesheet" href="/goit-markup-hw-02/css/index.css" />
   </head>
   <header>
     <a class="link logo" href="index.html"
       >Web<span class="logo-head">Studio</span></a
     >
-    <nav>
+    <nav class="menu">
       <ul>
-        <li><a class="link" href="#section1">Agencja</a></li>
-        <li><a class="link" href="portfolio.html">Portfolio</a></li>
-        <li><a class="link" href="#section2">Kontakt</a></li>
+        <li class="list menu">
+          <a class="link" href="#section1">Agencja</a>
+        </li>
+        <li class="list menu">
+          <a class="link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="list menu">
+          <a class="link" href="#section2">Kontakt</a>
+        </li>
       </ul>
     </nav>
     <a class="link contact" href="mailto:info@devstudio.pl"
@@ -34,15 +40,25 @@
   </header>
   <body>
     <main>
-      <ul>
-        <li><button type="button" class="link portfolio">Wszystkie</button></li>
-        <li><button type="button" class="link portfolio">Strony</button></li>
-        <li><button type="button" class="link portfolio">Aplikacje</button></li>
-        <li><button type="button" class="link portfolio">Dizajn</button></li>
-        <li><button type="button" class="link portfolio">Marketing</button></li>
+      <ul class="portfolio-filters">
+        <li class="list portfolio">
+          <button type="button" class="link portfolio">Wszystkie</button>
+        </li>
+        <li class="list portfolio">
+          <button type="button" class="link portfolio">Strony</button>
+        </li>
+        <li class="list portfolio">
+          <button type="button" class="link portfolio">Aplikacje</button>
+        </li>
+        <li class="list portfolio">
+          <button type="button" class="link portfolio">Dizajn</button>
+        </li>
+        <li class="list portfolio">
+          <button type="button" class="link portfolio">Marketing</button>
+        </li>
       </ul>
-      <ul>
-        <li>
+      <ul class="list">
+        <li class="list portfolio">
           <a class="link" href="#"
             ><img
               src="images/portfolio/portfolio1.jpeg"
@@ -51,11 +67,11 @@
               height="294"
           /></a>
           <dl>
-            <dt>Technocrack</dt>
-            <dd>Strona internetowa</dd>
+            <dt class="portfolio-title">Technocrack</dt>
+            <dd class="portfolio-desc">Strona internetowa</dd>
           </dl>
         </li>
-        <li>
+        <li class="list portfolio">
           <a class="link" href="#"
             ><img
               src="images/portfolio/portfolio2.jpeg"
@@ -64,11 +80,11 @@
               height="294"
           /></a>
           <dl>
-            <dt>Grafika New Orlean vs Golden Star</dt>
-            <dd>Dizajn</dd>
+            <dt class="portfolio-title">Grafika New Orlean vs Golden Star</dt>
+            <dd class="portfolio-desc">Dizajn</dd>
           </dl>
         </li>
-        <li>
+        <li class="list portfolio">
           <a class="link" href="#"
             ><img
               src="images/portfolio/portfolio3.jpeg"
@@ -77,11 +93,11 @@
               height="294"
           /></a>
           <dl>
-            <dt>Restauracja Seafood</dt>
-            <dd>Aplikacja</dd>
+            <dt class="portfolio-title">Restauracja Seafood</dt>
+            <dd class="portfolio-desc">Aplikacja</dd>
           </dl>
         </li>
-        <li>
+        <li class="list portfolio">
           <a class="link" href="#"
             ><img
               src="images/portfolio/portfolio4.jpeg"
@@ -90,11 +106,11 @@
               height="294"
           /></a>
           <dl>
-            <dt>Projekt Prime</dt>
-            <dd>Marketing</dd>
+            <dt class="portfolio-title">Projekt Prime</dt>
+            <dd class="portfolio-desc">Marketing</dd>
           </dl>
         </li>
-        <li>
+        <li class="list portfolio">
           <a class="link" href="#"
             ><img
               src="images/portfolio/portfolio5.jpeg"
@@ -103,11 +119,11 @@
               height="294"
           /></a>
           <dl>
-            <dt>Projekt Boxes</dt>
-            <dd>Aplikacja</dd>
+            <dt class="portfolio-title">Projekt Boxes</dt>
+            <dd class="portfolio-desc">Aplikacja</dd>
           </dl>
         </li>
-        <li>
+        <li class="list portfolio">
           <a class="link" href="#"
             ><img
               src="images/portfolio/portfolio6.jpeg"
@@ -116,11 +132,11 @@
               height="294"
           /></a>
           <dl>
-            <dt>Inspiration has no Borders</dt>
-            <dd>Strona internetowa</dd>
+            <dt class="portfolio-title">Inspiration has no Borders</dt>
+            <dd class="portfolio-desc">Strona internetowa</dd>
           </dl>
         </li>
-        <li>
+        <li class="list portfolio">
           <a class="link" href="#"
             ><img
               src="images/portfolio/portfolio7.jpeg"
@@ -129,11 +145,11 @@
               height="294"
           /></a>
           <dl>
-            <dt>Magazyn Limited Edition</dt>
-            <dd>Dizajn</dd>
+            <dt class="portfolio-title">Magazyn Limited Edition</dt>
+            <dd class="portfolio-desc">Dizajn</dd>
           </dl>
         </li>
-        <li>
+        <li class="list portfolio">
           <a class="link" href="#"
             ><img
               src="images/portfolio/portfolio8.jpeg"
@@ -142,11 +158,11 @@
               height="294"
           /></a>
           <dl>
-            <dt>Projekt LAB</dt>
-            <dd>Marketing</dd>
+            <dt class="portfolio-title">Projekt LAB</dt>
+            <dd class="portfolio-desc">Marketing</dd>
           </dl>
         </li>
-        <li>
+        <li class="list portfolio">
           <a class="link" href="#"
             ><img
               src="images/portfolio/portfolio9.jpeg"
@@ -155,13 +171,13 @@
               height="294"
           /></a>
           <dl>
-            <dt>Growing Business</dt>
-            <dd>Aplikacja</dd>
+            <dt class="portfolio-title">Growing Business</dt>
+            <dd class="portfolio-desc">Aplikacja</dd>
           </dl>
         </li>
       </ul>
     </main>
-    <footer>
+    <footer class="fotter-bg">
       <address id="section2">
         <a class="link logo" href="index.html"
           >Web<span class="logo-footer">Studio</span></a
