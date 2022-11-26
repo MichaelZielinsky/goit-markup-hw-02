@@ -36,9 +36,7 @@ a {
   color: var(--brand-txt-clr);
 }
 .link:hover,
-.link:active,
-.link.footer:hover,
-.link.footer:active {
+.link:active {
   color: var(--brand-hvr-color);
   cursor: pointer;
 }
@@ -142,4 +140,8 @@ a {
 }
 .link.footer {
   color: var(--bg-color);
+}
+.list-footer {
+  list-style: none;
+  display: inline;
 }
