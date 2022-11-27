@@ -9,8 +9,8 @@
 }
 body {
   font-family: "Roboto", "sans-serif";
-  line-height: 1.71;
-  letter-spacing: 3%;
+  line-height: normal;
+  letter-spacing: 0.03em;
   color: var(--brand-txt-clr);
 }
 a {
@@ -27,6 +27,7 @@ a {
 .hero-btn {
   background-color: var(--brand-hvr-color);
   color: var(--bg-color);
+  line-height: 1.88;
 }
 .link {
   color: var(--brand-txt-clr);
@@ -44,7 +45,6 @@ a {
 .link.portfolio:active {
   background-color: var(--brand-hvr-color);
   color: var(--bg-color);
-  cursor: pointer;
 }
 
 .logo {
@@ -62,7 +62,7 @@ a {
 .contact {
   font-size: 14px;
   color: var(--brand-p-color);
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 .banner {
   background-color: var(--bg-color-scd);
@@ -72,7 +72,7 @@ a {
   line-height: 1.36;
   font-size: 44px;
   text-transform: uppercase;
-  letter-spacing: 6%;
+  letter-spacing: 0.06em;
   line-height: 1.36;
 }
 .list {
@@ -82,11 +82,12 @@ a {
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 700;
-  line-height: auto;
+  line-height: normal;
 }
 .adv-descr {
   text-align: left;
   color: var(--brand-p-color);
+  line-height: 1.71;
 }
 .title-snd {
   font-size: 36px;
@@ -121,18 +122,22 @@ a {
 /* Portfolio */
 .portfolio-filters {
   text-align: center;
+  cursor: pointer;
+  line-height: 1.63;
 }
 .portfolio-title {
   color: var(--brand-txt-clr);
   font-weight: 700;
   font-size: 18px;
-  letter-spacing: 6%;
+  letter-spacing: 0.06em;
+  line-height: 2;
   text-align: left;
 }
 .portfolio-desc {
   color: var(--brand-p-color);
   font-size: 16px;
   text-align: left;
+  line-height: 1.88;
 }
 
 .fotter-bg {
@@ -143,4 +148,5 @@ a {
 }
 .list-footer {
   list-style-type: none;
+  line-height: 1.71;
 }
