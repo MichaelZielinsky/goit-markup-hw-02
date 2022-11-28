@@ -10,7 +10,6 @@
 body {
   font-family: "Roboto", "sans-serif";
   line-height: normal;
-  letter-spacing: 0.03em;
   color: var(--brand-txt-clr);
 }
 a {
@@ -24,27 +23,18 @@ a {
 .list.portfolio {
   display: inline-block;
 }
-.hero-btn {
-  background-color: var(--brand-hvr-color);
-  color: var(--bg-color);
-  line-height: 1.88;
+.list.menu .link.contact {
+  letter-spacing: 0.02em;
 }
+
 .link {
   color: var(--brand-txt-clr);
 }
-.link.portfolio {
-  background-color: var(--bf-color-team);
-  color: var(--brand-txt-clr);
-}
+
 .link:hover,
 .link:active {
   color: var(--brand-hvr-color);
   cursor: pointer;
-}
-.link.portfolio:hover,
-.link.portfolio:active {
-  background-color: var(--brand-hvr-color);
-  color: var(--bg-color);
 }
 
 .logo {
@@ -52,6 +42,7 @@ a {
   font-size: 26px;
   font-weight: 700;
   color: var(--brand-hvr-color);
+  letter-spacing: 0.03em;
 }
 .logo-head {
   color: var(--logo-clear-black);
@@ -63,6 +54,13 @@ a {
   font-size: 14px;
   color: var(--brand-p-color);
   letter-spacing: 0.02em;
+}
+.hero-btn {
+  background-color: var(--brand-hvr-color);
+  color: var(--bg-color);
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  cursor: pointer;
 }
 .banner {
   background-color: var(--bg-color-scd);
@@ -81,6 +79,7 @@ a {
 .adv-title {
   text-transform: uppercase;
   font-size: 14px;
+  letter-spacing: 0.03em;
   font-weight: 700;
   line-height: normal;
 }
@@ -88,10 +87,12 @@ a {
   text-align: left;
   color: var(--brand-p-color);
   line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 .title-snd {
   font-size: 36px;
   font-weight: 700;
+  letter-spacing: 0.03em;
   text-align: center;
 }
 .our-adv.list {
@@ -109,21 +110,33 @@ a {
 .team-name {
   text-transform: capitalize;
   font-size: 16;
+  letter-spacing: 0.03em;
   font-weight: 700;
   text-align: center;
 }
 .team-desc {
   font-size: 14px;
+  letter-spacing: 0.03em;
   text-transform: capitalize;
   color: var(--brand-p-color);
   text-align: center;
 }
 
 /* Portfolio */
+.link.portfolio {
+  background-color: var(--bf-color-team);
+  color: var(--brand-txt-clr);
+}
+.link.portfolio:hover,
+.link.portfolio:active {
+  background-color: var(--brand-hvr-color);
+  color: var(--bg-color);
+}
 .portfolio-filters {
   text-align: center;
   cursor: pointer;
   line-height: 1.63;
+  letter-spacing: 0.03em;
 }
 .portfolio-title {
   color: var(--brand-txt-clr);
@@ -138,6 +151,7 @@ a {
   font-size: 16px;
   text-align: left;
   line-height: 1.88;
+  letter-spacing: 0.03em;
 }
 
 .fotter-bg {
@@ -149,4 +163,5 @@ a {
 .list-footer {
   list-style-type: none;
   line-height: 1.71;
+  letter-spacing: 0.03em;
 }
