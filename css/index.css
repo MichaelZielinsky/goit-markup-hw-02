@@ -17,10 +17,10 @@ a {
 }
 .contact,
 .menu,
-.menu-list > li,
-.our-adv-list > li,
-.what-we-do > li,
-.portfolio-filters > li {
+.menu-list-item,
+.our-adv-list-item,
+.what-we-do-item,
+.portfolio-filters-item {
   display: inline-block;
   text-decoration: none;
 }
@@ -72,7 +72,7 @@ a {
   letter-spacing: 0.06em;
   cursor: pointer;
 }
-.banner {
+.hero {
   background-color: var(--bg-color-scd);
 }
 .banner-txt {
